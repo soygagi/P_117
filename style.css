@@ -1,23 +1,22 @@
 body{
-    background: linear-gradient(rgb(150, 15, 141) 60%, rgb(83, 37, 58));
+    background: linear-gradient(rgb(117, 218, 101), rgb(160, 220, 237));
 }
 h1{
-    color:rgb(113, 79, 191);
-    background-color: rgb(138, 40, 105);
+    color:rgb(130, 86, 197);
+    background-color: rgb(55, 103, 119);
 }
 #show_sketch{
-    float: right;
+    float:right;
 }
-p{
-    padding-top: 10px;
-    font-size: 25px;
+canvas{
+    border: 5px solid rgb(191, 89, 195);
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 1s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
 }
-#temporizador{
-    color: rgb(161, 94, 131);
-    font-size: 25px;
-    float: right;
-}
-#puntuacion{
-    color: rgb(134, 3, 57);
-    font-size: 25px;
+ @keyframes example{
+    from{box-shadow: 1px 1px 38px rgb(214, 203, 203);}
+    to{box-shadow: 1px 1px 38px rgb(32, 56, 77);}
 }
